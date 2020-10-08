@@ -1,10 +1,6 @@
 
 /* colori */
 
-.blue {
-  background-color: #0060ff;
-}
-
 .grey {
   background-color: grey;
 }
@@ -50,10 +46,11 @@ ul.second_nav_l li {
   color: white;
   background-image: url(img/jumbotron.svg);
   margin-top: 0;
+  margin-bottom: 0;
 }
 
+/* form */
 .enter {
-  height: 250px;
   width: 350px;
   background-color: white;
   border-radius: 5px;
@@ -64,7 +61,7 @@ ul.second_nav_l li {
   color: black;
 }
 
-.deploy h4:nth-child(2) {
+.deploy h3:nth-child(2) {
   color: #0060ff;
   margin-top: 0;
 }
@@ -78,25 +75,48 @@ ul.second_nav_l li {
   margin-top: 10px;
 }
 
-.form_control_btn {
-  box-shadow: 0;
+[class*="form_control_btn"] {
   height: 30px;
   width: 100%;
-  color: white;
   margin-top: 10px;
-  background-color: #006aff;
-  border-color: #006aff;
   border-radius: 5px;
+
 }
 
+.form_control_btn_1 {
+  color: white;
+  background-color: #006aff;
+  border-color: #006aff;
+  border: none;
+}
+
+.form_control_btn_2 {
+  color: black;
+  background-color: #ffffff;
+}
+
+.logo_google {
+  width: 20px;
+}
+
+
+
 /* sezione partners */
+.partners {
+  background-color: #f3f5f9;
+}
+
+.partners_title {
+  color: #5b6987;
+  margin-top: 50px;
+}
+
+.partners_link {
+  color: #0069ff;
+}
+
 .loghi {
-  height: 70px;
-  width: 70px;
-  border: 1px solid black;
-  background-color: lightcoral;
   display: inline-block;
-  margin-right: 100px;
 }
 
 /* sezione caratteristiche */
@@ -106,7 +126,7 @@ ul.second_nav_l li {
   margin-right: 20px;
 }
 
-/* sezione dimostratica */
+/* sezione dimostrativa */
 .pics {
   height: 600px;
   width: 600px;
@@ -166,4 +186,58 @@ ul.second_nav_l li {
 
 .m_top50 {
   margin-top: 50px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  /* sezione partners */
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+/* nav */
+.burger {
+  color: #0063ff;
+  float: right;
+}
+
+/* jumbotron */
+.enter {
+  width: 280px;
+  height: 400px;
+}
+
+/* form */
+.deploy h4:nth-child(1),
+.deploy h4:nth-child(2) {
+  padding: 5px;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.form-control {
+  height: 50px;
+  margin-top: 10px;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .burger {
+    float: right;
+    color: #0063ff;
+  }
+
+  .jumbo_description {
+    text-align: center;
+  }
+
+  .enter {
+    height: 450px;
+    position: relative;
+    margin: auto;
+  }
 }
