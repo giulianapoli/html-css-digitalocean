@@ -1,0 +1,77 @@
+/* colori */
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+
+}
+
+.blue {
+  background-color: #0060ff;
+}
+
+.grey {
+  background-color: grey;
+}
+
+/* sezione partners */
+.loghi {
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  background-color: lightcoral;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+/* sezione caratteristiche */
+.features {
+  display: inline-block;
+  height: 200px;
+  margin-right: 20px;
+}
+
+/* sezione dimostratica */
+.pics {
+  height: 600px;
+  width: 600px;
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: purple;
+}
+
+/* sezione funzionalità */
+.title_built {
+  margin-bottom: 50px;
+}
+
+.infos {
+  margin-top: 50px;
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+.infos_1~.infos_2,
+.infos_1~.infos_3,
+.infos_1~.infos_4 {
+  margin-left: 100px;
+}
+
+/* altezze e margini */
+
+.header_section [class*="col-"] {
+  height: 20px;
+}
+
+[class*="loghi"] {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.m_top50 {
+  margin-top: 50px;
+}
