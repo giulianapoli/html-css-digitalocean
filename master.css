@@ -1,8 +1,15 @@
 
 /* colori */
+.blue_text {
+  color: #031b4e;
+}
 
-.grey {
-  background-color: grey;
+.grey_text {
+  color: #5b6987;
+}
+
+.links {
+  color: #1072ff;
 }
 
 /* nav bar */
@@ -100,40 +107,75 @@ ul.second_nav_l li {
 }
 
 
-
 /* sezione partners */
 .partners {
   background-color: #f3f5f9;
 }
 
 .partners_title {
-  color: #5b6987;
   margin-top: 50px;
 }
 
 .partners_link {
-  color: #0069ff;
+  margin-bottom: 50px;
 }
 
-.loghi {
-  display: inline-block;
+[class*="loghi"] {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-/* sezione caratteristiche */
-.features {
-  display: inline-block;
-  height: 200px;
-  margin-right: 20px;
+/* sezione features */
+.features_text {
+  /* width: 700px; */
+  margin: auto;
 }
 
-/* sezione dimostrativa */
+
+.features_p {
+  font-size: 20px;
+}
+
+.features_list {
+  border-left: 1px solid #5b6987;
+  margin-top: 50px;
+}
+
+.features_list li {
+  margin-bottom: 50px;
+}
+
+.up_features {
+  margin-bottom: 50px;
+}
+
+.down_features {
+  margin-bottom: 100px;
+}
+
+/* sezione demonstrative */
+.demonstrative {
+  background-color: #f3f5f9;
+}
+
+.demonstrative .grey_text {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
 .pics {
+  position: relative;
   height: 600px;
-  width: 600px;
-  margin-left: 250px;
+  width: 70%;
+  margin:auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: purple;
+
+}
+
+.demos_pics {
+  position: relative;
+  width: 100%;
 }
 
 /* sezione funzionalità */
@@ -179,10 +221,7 @@ ul.second_nav_l li {
   height: 20px;
 }
 
-[class*="loghi"] {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
+
 
 .m_top50 {
   margin-top: 50px;
@@ -239,5 +278,16 @@ ul.second_nav_l li {
     height: 450px;
     position: relative;
     margin: auto;
+  }
+
+  /* features & demonstrative */
+  .features_p,
+  .demonstrative .grey_text  {
+    font-size: 25px;
+  }
+
+
+  .demonstrative .grey_text {
+    font-size: 25px;
   }
 }

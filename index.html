@@ -15,14 +15,18 @@
         <nav class="navbar navbar-default grey">
           <div class="container">
             <div class="row">
+
+              <!-- logo -->
               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                 <img class="logo" src="img/logo.png" alt="">
               </div>
+
+              <!-- nav bar -->
               <div class="col-lg-5 col-md-5 col-sm-6">
                 <div class="burger visible-sm visible-xs">
                   <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </div>
-                <ul class="first_nav_l list-unstyled  visible-lg  visible-md">
+                <ul class="first_nav_l list-unstyled  visible-lg  visible-md blue_text">
                   <li>Products
                     <span class="glyphicon glyphicon-chevron-down"></span>
                   </li>
@@ -34,7 +38,7 @@
                 </ul>
               </div>
               <div class="col-lg-3 col-md-4 visible-lg visible-md">
-                <ul class="second_nav_l list-unstyled">
+                <ul class="blue_text second_nav_l list-unstyled">
                   <li>Docs</li>
                   <li>Support
                     <span class="glyphicon glyphicon-chevron-down"></span>
@@ -56,13 +60,13 @@
             <!-- bocco sx -->
             <div class="jumbo_description col-md-7 col-sm-7 col-xs-12">
               <h1>Welcome to the developer cloud</h1>
-              <p>We make it simple to launch in the cloud and scale up as <br> you grow – with an intuitive control panel, predictable <br> pricing, team accounts, and more.</p>
+              <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
             </div>
             <!-- blocco dx -->
             <div class="col-md-5 col-sm-5 col-xs-12">
               <form class="enter">
                 <div class="form-group deploy text-center">
-                  <h3>Deploy your app in seconds.</h3>
+                  <h3 class="blue_text">Deploy your app in seconds.</h3>
                   <h3>Get started now.</h3>
                   <input type="email" class="form-control" placeholder="Email">
                   <input type="password" class="form-control" placeholder="Password">
@@ -80,13 +84,14 @@
     <!-- sezione partners -->
     <section class="text-center partners">
       <div class="container">
-        <div class="row">
+
+        <div>
           <!-- titolo -->
-          <div class="col-md-12">
-            <h5 class="text-uppercase partners_title">Innovative businesses trust DigitalOcean</h5>
-          </div>
+          <h5 class="text-uppercase partners_title grey_text">Innovative businesses trust DigitalOcean</h5>
+        </div>
+
           <!-- loghi -->
-          <div class="col-md-12">
+          <div class="row">
             <div class="loghi col-md-2 col-sm-4 col-xs-6">
               <img src="img/docker.svg" alt="">
             </div>
@@ -109,37 +114,30 @@
           </div>
 
           <!-- link business solutions -->
-          <div class="col-md-12">
-            <a class="partners_link" href="#">See business solution <span class="glyphicon glyphicon-chevron-right"></span> </a>
-
+          <div class="partners_link">
+            <a class="links" href="#">See business solution <span class="glyphicon glyphicon-chevron-right"></span> </a>
           </div>
 
         </div>
       </div>
     </section>
 
-    <!-- sezione caratteristiche -->
-    <section class="text-center grey">
+    <!-- sezione features -->
+    <section class="text-center">
       <div class="container">
-        <div class="row">
-          <div class="col-md-offset-3">
-            <div class="col-md-8">
-              <div class="m_top50">
-                <h1>Deploy and scale seamlessly</h1>
-                <p class="m_top50">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
-              </div>
-            </div>
-          </div>
+        <div class="features_text m_top50">
+          <h1 class="blue_text">Deploy and scale seamlessly</h1>
+          <p class="features_p grey_text">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
         </div>
       </div>
 
         <!-- blocchi caratteristiche -->
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+
               <!-- lista -->
-            <div class="col-md-2">
-              <ul>
+            <div class="features_list col-md-3 col-sm-3 col-xs-12 text-left grey_text">
+              <ul class="list-unstyled">
                 <li>Deploy</li>
                 <li>Scale</li>
                 <li>Store</li>
@@ -147,53 +145,69 @@
                 <li>Monitor</li>
               </ul>
             </div>
+
               <!-- blocchi caratteristiche -->
-            <div class="col-md-10 m_top50">
-              <div class="features">
-                CIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAO
+            <div class="col-md-9 col-sm-9 col-xs-12 m_top50">
+              <div class="row up_features">
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                  <img src="img/timone.svg" alt="">
+                  <h4 class="blue_text">Kubernetes in minutes</h4>
+                  <p class="grey_text">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                  <img src="img/drop.svg" alt="">
+                  <h4 class="blue_text">Kubernetes in minutes</h4>
+                  <p class="grey_text">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                </div>
+
               </div>
-              <div class="features">
-                CIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAO
-              </div>
-              <div class="features">
-                  CIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAO
-              </div>
-              <div class="features">
-                  CIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAOCIAO
+
+              <div class="row down_features">
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                  <img src="img/shuttle.svg" alt="">
+                  <h4 class="blue_text">Kubernetes in minutes</h4>
+                  <p class="grey_text">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                  <img src="img/folders.svg" alt="">
+                  <h4 class="blue_text">Kubernetes in minutes</h4>
+                  <p class="grey_text">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                </div>
               </div>
             </div>
 
-          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- sezione dimostrativa / titolo -->
-    <section class="text-center">
+    <!-- sezione demonstrative / titolo -->
+    <section class="text-center demonstrative">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="t_pt">
-              <h1>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div>
+              <h1 class="blue_text m_top50">
                 Designed for developers
               </h1>
-              <p>
+              <p class="grey_text">
                 Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
               </p>
             </div>
           </div>
         </div>
-        <!-- blocco immagini -->
+      </div>
+
+      <!-- imgs block -->
+      <div class="container">
         <div class="row">
-          <div class="container">
-            <div class="col-md-12 demonstrative">
-              <div class="col-md-5 pics">
-                <img src="" alt="">
-              </div>
+          <div>
+            <div class="pics">
+              <img class="demos_pics" src="img/demos.jpg" alt="">
             </div>
           </div>
-
         </div>
+
       </div>
     </section>
 
