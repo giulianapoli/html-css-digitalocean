@@ -1,17 +1,5 @@
-.inline {
-  display: inline-block;
-}
 
 /* colori */
-
-.green {
-  background-color: green;
-}
-
-.red {
-  background-color: red;
-
-}
 
 .blue {
   background-color: #0060ff;
@@ -19,6 +7,86 @@
 
 .grey {
   background-color: grey;
+}
+
+/* nav bar */
+.navbar {
+  margin-bottom: 0;
+  background-color: #ffffff;
+}
+
+nav [class*="col-"] {
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo {
+  padding: 0;
+  width: 200px;
+  background-size: cover;
+}
+
+ul.first_nav_l li,
+ul.second_nav_l li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn_1 {
+  height: 50px;
+  /* background-color: #ffffff; */
+  color: #006aff;
+  display: inline-block;
+  /* border-color: 1px solid #006aff; */
+
+}
+
+.second_nav_l li:last-child {
+
+}
+
+/* jumbotron */
+.jumbotron {
+  color: white;
+  background-image: url(img/jumbotron.svg);
+  margin-top: 0;
+}
+
+.enter {
+  height: 250px;
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.deploy {
+  padding: 10px;
+  color: black;
+}
+
+.deploy h4:nth-child(2) {
+  color: #0060ff;
+  margin-top: 0;
+}
+
+.form-group {
+  padding: 10px;
+  margin-top: 0;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.form_control_btn {
+  box-shadow: 0;
+  height: 30px;
+  width: 100%;
+  color: white;
+  margin-top: 10px;
+  background-color: #006aff;
+  border-color: #006aff;
+  border-radius: 5px;
 }
 
 /* sezione partners */
@@ -66,7 +134,7 @@
 }
 
 /* sezione account */
-.btn {
+.btn_2 {
   float: right;
   vertical-align: middle;
 }
